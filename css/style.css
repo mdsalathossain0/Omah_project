@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+}
+.box{
+    display: flex;
+}
+/* Nav Part Start */
+.navbar{
+    background: #EEEDDE;
+    padding-top: 57px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 100px;
+}
+.navbar ul li{
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    color: #203239;
+    font-weight: light;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.navbar ul li:hover{
+    border-bottom: 2px solid #FF7527;
+}
+/* Nav Part end */
+/* Banner Part Start */
+.banner-part{
+    background: #EEEDDE;
+    padding-top: 40px;
+}
+.banner-part .info-part h1{
+    width: 100%;
+    font-size: 54px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    color: rgba(32, 50, 57,100%);
+    padding-top: 60px;
+}
+.banner-part .info-part p{
+    width: 80%;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: light;
+    color: rgba(32, 50, 57, 55%);
+    padding-top: 24px;
+    padding-bottom: 56px;
+}
+.banner-part .info-part form {
+
+    position: relative;
+}
+.banner-part .info-part form input{
+    width: 90%;
+    height: 55px;
+    border: 0;
+    border-radius: 15px;
+}
+.banner-part .info-part form .button a {
+    display: inline-block;
+    background: rgba(32, 50, 57,100%);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    padding: 11px 36px;
+    border-radius: 10px;
+    --webkit-box-shadow: -1px 5px 5px -6px rgba(32,50,57,0.61);
+    -moz-box-shadow: -1px 5px 5px -6px rgba(32,50,57,0.61);
+    box-shadow: -1px 5px 5px -6px rgba(32,50,57,0.61);
+    position: absolute;
+    top: 5px;
+    right: 85px;
+}
+.info-part .fa-solid {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+.info-part .info{
+  padding-top: 56px;
+}
+.info-part .info h3 {
+    font-size: 56px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    color: rgba(32, 50, 57, 100%);
+    letter-spacing: -4px;
+}
+.info-part .info h3 span{
+   color: #FF7527;
+}
+.info-part .info p{
+    width: 55%;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: light;
+    color: rgba(32, 50, 57, 55%);
+}
+/* Banner Part end */
