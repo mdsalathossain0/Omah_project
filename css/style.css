@@ -134,6 +134,14 @@ a{
 .cart-part .card-body{
     position: relative;
 }
+.cart-part .card-body {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.cart-part .card-body:hover {
+    border: 1px solid rgba(32, 50, 57, 55%);
+    border-radius: 10px;
+}
 .cart-part h2 {
     width: 47%;
     font-size: 36px;
@@ -188,17 +196,19 @@ a{
     background: #FF7527;
     border-radius: 8px;
     position: absolute;
-    top: 35px;
+    top: 12px;
     left: 0;
 }
-.cart-part .card-info .number{
+.cart-part .heading {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+ .cart-part .card-info .number{
     color: #FF7527;
     font-size: 16px;
     font-family: "Poppins", serif;
     font-weight: 400;
-}
+} 
 /* Cart Part end */
 /* Favorit Part start */
 .favorit {
