@@ -200,3 +200,80 @@ a{
     font-weight: 400;
 }
 /* Cart Part end */
+/* Favorit Part start */
+.favorit {
+    background: #EEEDDE;
+    padding: 40px 0;
+    padding-bottom: 150px;
+}
+.favorit .common-heading p{
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: #FF7527;
+}
+.favorit .common-heading h3{
+    font-size: 36px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    color: rgba(32, 50, 57,100%);
+}
+.favorit .image-part{
+    padding-top: 60px;
+}
+.favorit .image-part .image1{
+    position: relative;
+}
+.favorit .image-part .image2 {
+    position: absolute;
+    top: 60px;
+    left: 87px;
+}
+.favorit .info-part h4{
+    font-size: 36px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    color: rgba(32, 50, 57,100%);
+    padding-top: 60px;
+}
+.favorit .info-part p{
+    width: 100%;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: light;
+    color: rgba(32, 50, 57,100%);
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.favorit .info-part .button{
+    display: flex;
+    column-gap: 48px;
+}
+.favorit .info-part .button1 a{
+    color: rgba(32, 50, 57,100%);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 13px 40px;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+.favorit .info-part .button1 a:hover{
+    background: rgba(32, 50, 57,100%);
+    color: #FFFFFF;
+}
+.favorit .info-part .button1 a i{
+   padding-right: 8px;
+}
+.favorit .info-part .button2 a{
+    color: #FFFFFF;
+    background: rgba(32, 50, 57,100%);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 13px 40px;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+/* Favorit Part end */
