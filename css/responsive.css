@@ -1,0 +1,92 @@
+@media (min-width:320px) and (max-width:575.99px){
+   
+/* nav part start */
+.navbar-toggler-icon{
+    width: 18px;
+}
+.navbar-nav{
+    margin-top: 20px;
+    background: rgb(38, 114, 150);
+    text-align: center;
+    border-radius: 10px;
+}
+.nav-item a{
+    font-size: 14px;
+}
+.navbar .nav-item:hover{
+    border-bottom: 2px solid transparent;
+    
+}
+
+/* nav part end */
+/* banner-part start */
+    .banner-part .info-part .heading {
+        font-size: 34px;
+        width: 100%;
+        padding-top: 0;
+    }
+    .banner-part .info-part .b-para{
+        font-size: 14px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .banner-part .info-part .form .input{
+        width: 100%;
+        height: 40px;
+        
+    }
+    .banner-part .info-part .form .label{
+        font-size: 14px;
+        width: 95%;
+    }
+    .banner-part .info-part .form .button {
+     
+        text-align: center;
+    }
+    .banner-part .info-part .form .button .a {
+       position: initial;
+       top: auto;
+       left: auto;
+       
+    }
+    .banner-part .info-part .box{
+        flex-direction: column;
+    }
+    .banner-part .info-part .box .info{
+       text-align: center;
+       padding-top: 10px;
+       padding-bottom: 0;
+    }
+    .banner-part .info-part .box .info .info-para{
+       width: 100%;
+       padding-top: 0;
+    }
+    .banner-part .b-image{
+        width: 100%;
+    }
+    /* banner-part end */
+    /* card-part start */
+    .cart-part{
+        padding: 20px 0 !important;
+    }
+    .cart-part .cart-heading{
+        font-size: 28px;
+        width: 100%;
+    }
+    .cart-part .card {
+        border: 1px solid rgba(32, 50, 57, 55%) !important;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .cart-part .card-body:hover {
+        border: 1px solid transparent !important;
+        
+    }
+    .cart-part .card-info{
+        flex-direction: column;
+    }
+    .cart-part .card-info .card-text{
+        font-size: 14px;
+    }
+    /* card-part end */
+}

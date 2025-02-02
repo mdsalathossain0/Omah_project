@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,8 +20,8 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div >
-            <ul class="navbar-nav  mb-2 mb-lg-0">
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav  mx-auto mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -46,34 +47,34 @@
             <div class="row">
                 <div class="col-lg-8">
                  <div class="info-part">
-                    <h1>Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
-                    <p>Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang lebih mudah.</p>
-                    <form action="">
+                    <h1 class="heading">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+                    <p class="b-para">Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang lebih mudah.</p>
+                    <form class="form" action="">
                        <div class="input-field">
-                        <input type="text" required>
-                       <label for="" id="label"><i class="fa-solid fa-location-dot"></i>   Search location, properties, residental group</label>
+                        <input class="input" type="text" required>
+                       <label for="" class="label"><i class="fa-solid fa-location-dot"></i>   Search location, properties, residental group</label>
                        </div>
                         
-                       <div class="button"><a href="">Search</a></div>
+                       <div class="button"><a class="a"  href="">Search</a></div>
                     </form>
                     <div class="box">
                         <div class="info">
-                            <h3>200<span>+</span></h3>                       
-                            <p>Residental grup telah bergabung</p>
+                            <h3 class="info-heading">200<span>+</span></h3>                       
+                            <p class="info-para">Residental grup telah bergabung</p>
                         </div>
                         <div class="info">
-                            <h3>10<span>+</span></h3>                       
-                            <p>Sudah berpengalaman </p>
+                            <h3 class="info-heading">10<span>+</span></h3>                       
+                            <p class="info-para">Sudah berpengalaman </p>
                         </div>
                         <div class="info">
-                            <h3>999<span>+</span></h3>                       
-                            <p>Properti tersedia di berbagai Kota</p>
+                            <h3 class="info-heading">999<span>+</span></h3>                       
+                            <p class="info-para">Properti tersedia di berbagai Kota</p>
                         </div>
                     </div>
                  </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="image/banner-img.png" alt="">
+                    <img class="b-image" src="image/banner-img.png" alt="">
                 </div>
             </div>
         </div>
@@ -82,7 +83,7 @@
  <!-- Cart Part start -->
       <section class="cart-part">
         <div class="container">
-          <h2>Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
+          <h2 class="cart-heading">Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
           <div class="card-info">
             <div class="card border-0" style="width: 18rem;">
               
@@ -161,6 +162,110 @@
         </div>
       </section>
  <!-- Favorit Part end -->
+ <!-- Berbagai Part start -->
+      <section class="berbagai">
+        <div class="container">
+         <div class="box">
+          <div class="common-heading">
+            <p>Pilihan Auditor</p>
+            <h3>Residen Berbagai Kota</h3>
+          </div>
+          <div class="slide-ber">
+            <div class="slide-icon">
+              <span><i class="fa-solid fa-greater-than"></i></span>
+              <span><i class="fa-solid fa-greater-than"></i></span>
+            </div>
+          </div>
+         </div>         
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="info">
+              <div class="image"><img src="image/berbagai1.png" alt=""></div>
+              <h5>Magnolia Surabaya</h5>
+              <p>Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+            </div></div>
+           <div class="col-lg-4">
+            <div class="info">
+              <div class="image"><img src="image/berbagai2.png" alt=""></div>
+              <h5>Pinang Residences</h5>
+              <p>Jl. Deplu Raya No.16 RT.5, RW.003
+                Bintaro, Pesanggrahan, Jakarta Selatan 12330</p>
+            </div>
+           </div>
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="image"><img src="image/berbagai3.png" alt=""></div>
+              <h5>South Grove</h5>
+              <p>1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440</p>
+            </div>
+          </div>
+          </div>
+          </div>
+       
+      </section>
+ <!-- Berbagai Part end -->
+ <!-- Hubungi Part end -->
+      <section class="hubungi">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <h4>Hubungi Kami</h4>
+              <div class="box">
+                <div class="call">
+                  <div class="info">
+                    <div><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                      <p>Call</p>
+                      <p>+6281232936733</p>
+                    </div>
+                  </div>
+                  <div class="button"><a href="">Call Now</a></div>
+                </div>
+                <div class="call">
+                  <div class="info">
+                    <div><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                      <p>email</p>
+                      <p>omahindev@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="button"><a href="">Email Now</a></div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <h4>Penghargaan</h4>
+              <div class="box">
+                <img src="image/hubungi1.png" alt="">
+                <img src="image/hubungi2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ <!-- Hubungi Part end -->
+ <!-- Footer Part start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <img src="image/footer-img.png" alt="">
+        </div>
+        <div class="col-lg-4">
+          <div class="icon">
+            <ul>
+              <li><i class="fa-brands fa-square-instagram"></i></li>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+ <!-- Footer Part end -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
