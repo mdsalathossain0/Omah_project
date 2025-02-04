@@ -89,4 +89,61 @@
         font-size: 14px;
     }
     /* card-part end */
+    /* Favorit start */
+    .common-heading .fa-heading{
+        font-size: 24px;
+    }
+    .common-heading .fa-para{
+        font-size: 14px;
+    }
+    .favorit .image-part{
+        padding-top: 20px !important;
+    }
+    .favorit .info-part .fa2-heading{
+        font-size: 28px;
+    }
+    .favorit .info-part .fa2-para{
+        font-size: 14px;
+    }
+    .favorit .info-part .button1{
+       width: 100%;
+    }
+    .favorit .info-part .button2{
+       width: 100%;
+    }
+    
+    /* Favorit end */
+    /* berbagai-part start */
+    .berbagai .box .slide-ber .slide-icon .fa-solid{
+       width: 10px;
+    }
+    .berbagai .info .ber-heading{
+        font-size: 20px;
+    }
+    .berbagai .info .ber-para{
+        font-size: 14px;
+    }
+    /* berbagai-part end */
+    /* hubungi-part end */
+    .hubungi .hub-heading{
+        font-size: 28px;
+    }
+    .hubungi .hub2-heading{
+        font-size: 28px;
+        padding-top: 12px;
+    }
+    .hubungi .common-para{
+        font-size: 14px;
+    }
+    .hubungi .button .a{
+        font-size: 14px;
+    }
+    /* hubungi-part end */
+    /* footer-part start */
+    .footer .icon .ul{
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    /* footer-part end */
 }

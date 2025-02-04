@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
 }
@@ -234,15 +239,27 @@ p{
     color: rgba(32, 50, 57,100%);
 }
 .favorit .image-part{
+    width: 80%;
+    max-width: 100%;
     padding-top: 60px;
+    position: relative;
 }
 .favorit .image-part .image1{
-    position: relative;
+    width: 100%;
+    display: block;
+}
+.favorit .image-part .image1 .img1{
+    width: 80%;
 }
 .favorit .image-part .image2 {
     position: absolute;
-    top: 60px;
-    left: 87px;
+    top: 30%;
+    left: 30%;
+    width: 100%;
+}
+.favorit .image-part .image2 .img2{
+    width: 100%;
+    height: auto;
 }
 .favorit .info-part h4{
     font-size: 36px;
@@ -263,9 +280,12 @@ p{
 }
 .favorit .info-part .button{
     display: flex;
-    column-gap: 48px;
+    flex-wrap: wrap;
+    gap: 48px;
+    
 }
 .favorit .info-part .button1 a{
+   
     color: rgba(32, 50, 57,100%);
     border: 1px solid black;
     border-radius: 10px;
@@ -278,10 +298,11 @@ p{
     background: rgba(32, 50, 57,100%);
     color: #FFFFFF;
 }
-.favorit .info-part .button1 a i{
+.favorit .info-part .button1  a i{
    padding-right: 8px;
 }
 .favorit .info-part .button2 a{
+ 
     color: #FFFFFF;
     background: rgba(32, 50, 57,100%);
     border: 1px solid black;
@@ -297,17 +318,24 @@ p{
     padding: 50px 0;
 }
 .berbagai .box{
+    width: 100%;
     justify-content: space-between;
-    position: relative;
+}
+.berbagai .common-heading{
+    width: 70%;
 }
 .berbagai .box .slide-ber {
-    position: absolute;
-    top: 50px;
-    right: 150px;
+    width: 25%;
+    position: relative;
+
+  
 }
 .berbagai .box .slide-ber .slide-icon {
+    position: absolute;
+    top: 45%;
+    right: 20%;
     display: flex; 
-    column-gap: 30px;       
+    gap: 20px;      
 }
 .berbagai .box .slide-ber .slide-icon span {
     padding: 7px 10px;
@@ -358,12 +386,14 @@ p{
     padding-bottom: 35px;
 }
 .hubungi .box{
-    column-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 .hubungi .call{
    border: 1px solid rgba(255, 117, 39,20%);
    border-radius: 10px;
-   padding: 20px 35px;
+   padding: 20px 27px;
 }
 .hubungi .call p:first-child{
     font-weight: 500;
@@ -374,7 +404,6 @@ p{
    column-gap: 20px;
 }
 .hubungi .call .info i{
-
    font-size: 30px;
 }
 .hubungi .button {
@@ -404,7 +433,7 @@ p{
 .footer .icon ul{
     list-style: none;
     display: flex;
-    column-gap: 40px;
+    column-gap: 30px;
     justify-content: flex-end;
 }
 .footer .icon ul li{
