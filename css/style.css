@@ -389,6 +389,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    
 }
 .hubungi .call{
    border: 1px solid rgba(255, 117, 39,20%);
